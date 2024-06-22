@@ -39,6 +39,9 @@ _A list of my commonly used Git commands_
 | `git checkout -- [file-name.txt]` | Discard changes to a file |
 | `git merge [branch name]` | Merge a branch into the active branch |
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
+| `git checkout <commit_id>` | Move to any of the commit id (commit id can be found in git log) |
+| `git reset --hard <commit_id>` | Remove all the commits made after that commit (!!! delete them) |
+| `git revert <commit_id>` | Revert all the changes made in the specifig commit |
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
 
